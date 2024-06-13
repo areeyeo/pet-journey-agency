@@ -1,0 +1,108 @@
+CRITICAL - 2024-06-10 02:21:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_messagee.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messagee.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_messagee', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messagee')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:22:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_messagee.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messagee.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_messagee', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messagee')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:22:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_messagee.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messagee.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_messagee', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messagee')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:22:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_messagee.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messagee.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_messagee', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messagee')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 09:47:25 --> Error: Call to undefined method CodeIgniter\Router\Router::getMatchedRouteName()
+[Method: GET, Route: /]
+in APPPATH\Helpers\menu_helper.php on line 7.
+ 1 APPPATH\Views\dashboard\header.php(120): isActive('Dashboard_edit_cover::index')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pet-journey-agency\\app\\Views\\dashboard\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/header', [], true)
+ 5 APPPATH\Controllers\Dashboard_edit_cover.php(10): view('dashboard/header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard_edit_cover->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_edit_cover))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 11:52:04 --> ErrorException: Undefined variable $url
+[Method: GET, Route: /]
+in APPPATH\Helpers\menu_helper.php on line 7.
+ 1 APPPATH\Helpers\menu_helper.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\pet-journey-agency\\app\\Helpers\\menu_helper.php', 7)
+ 2 SYSTEMPATH\Common.php(640): include_once('C:\\xampp\\htdocs\\pet-journey-agency\\app\\Helpers\\menu_helper.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(487): helper([...])
+ 4 SYSTEMPATH\Boot.php(236): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 5 SYSTEMPATH\Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 11:52:31 --> ErrorException: Undefined variable $url
+[Method: GET, Route: /]
+in APPPATH\Helpers\menu_helper.php on line 2.
+ 1 APPPATH\Helpers\menu_helper.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\pet-journey-agency\\app\\Helpers\\menu_helper.php', 2)
+ 2 SYSTEMPATH\Common.php(640): include_once('C:\\xampp\\htdocs\\pet-journey-agency\\app\\Helpers\\menu_helper.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(487): helper([...])
+ 4 SYSTEMPATH\Boot.php(236): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 5 SYSTEMPATH\Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 11:53:26 --> Error: Call to undefined method CodeIgniter\Router\Router::getMatchedRouteName()
+[Method: GET, Route: /]
+in APPPATH\Helpers\menu_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(640): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH\Boot.php(236): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH\Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 11:53:27 --> Error: Call to undefined method CodeIgniter\Router\Router::getMatchedRouteName()
+[Method: GET, Route: /]
+in APPPATH\Helpers\menu_helper.php on line 2.
+ 1 SYSTEMPATH\Common.php(640): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH\Boot.php(236): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH\Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 10:06:30 --> ParseError: syntax error, unexpected token ";", expecting "("
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard\header.php on line 83.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/header', [], true)
+ 3 APPPATH\Controllers\Dashboard_edit_cover.php(12): view('dashboard/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard_edit_cover->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_edit_cover))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
